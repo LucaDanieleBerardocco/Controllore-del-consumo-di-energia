@@ -68,11 +68,10 @@ Il consumo è espresso in kW; per i dispositivi ciclici è indicata anche la dur
 ## Comandi
  
 - 'set <dispositivo> on' / 'set <dispositivo> off': accende o spegne un dispositivo.
-- 'set <dispositivo> <hh:mm>': imposta il timer di accensione.
-- 'set <dispositivo> <hh:mm> <hh:mm>': imposta il timer di accensione e di spegnimento (non consentito per i dispositivi ciclici).
+- 'set <dispositivo> <hh:mm> <hh:mm>': setta il timer per i dispositivi.
 - 'rm <dispositivo>': rimuove il timer di un dispositivo.
-- 'show': mostra produzione e consumo totali e il consumo di ogni dispositivo.
-- 'show <dispositivo>': mostra il consumo di un solo dispositivo.
+- 'show': mostra i dati di tutti i dispositivi
+- 'show <dispositivo>': mostra i dati di un solo dispositivo.
 - 'set time <hh:mm>': fa avanzare l'orario del sistema fino all'orario indicato (che deve essere successivo a quello corrente).
 - 'reset time': riporta l'orario a 00:00 e spegne tutti i dispositivi, mantenendo i timer.
 - 'reset timers': rimuove tutti i timer.
